@@ -9,10 +9,12 @@
 /* Imagem de fundo e botão centralizado */
 header#top {
   max-width: 100vw;
-  height: 100vh;
-  background: url('../img/graffiti.jpg');
+  height: 70vh;
+  background: url('../img/taxi.jpg');
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow:0px 0px 100px 150px black inset;  
 }
 
 nav#menu-top {
@@ -45,7 +47,7 @@ div#btn-top a {
 /* Seção de somos */
 section#are {
   background-color: #000000;
-  padding: 5% 5% 0% 5%;
+  padding: 5% 5% 5% 5%;
 }
 
 section#are article {
@@ -53,61 +55,32 @@ section#are article {
   justify-content: center;
 }
 
-section#are article p {
+section#are article h2 {
   color: #f69bc1;
   font-family: Helvetica, sans-serif;
-  font-size: 3.5em;
-  width: 60%;
-  margin-right: auto;
-  margin-left: auto;
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-bottom: -5px;
+}
+
+section#are article p {
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+section#are article p.first {
+  margin-bottom: 3%;
+}
+
+p:first-child {
+  color: purple;
 }
 
 section#are article span {
   background-color: #ee2c2d;
   padding: 5px;
-}
-
-/* Seção com grid */
-section#grid {
-  background-color: #000000;
-  padding: 5%;
-}
-
-section#grid .basketball {
-  background: url('../img/basketball.jpg');
-}
-
-section#grid .skateboard {
-  background: url('../img/skateboard.jpg');
-}
-
-section#grid .ballet {
-  background: url('../img/ballet.jpg');
-}
-
-section#grid .block-img {
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 20vh;
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-section#grid .block-img div h2 {
-  color: #ffffff;
-  font-size: 1.8em;
-  font-family: Helvetica, sans-serif;
-  margin: 0;
-}
-
-section#grid .block-img div p {
-  color: #ffffff;
-  font-size: 1.3em;
-  text-align: center;
-  font-family: serif;
-  margin: 0;
 }
 
 /* Rodapé da página */
