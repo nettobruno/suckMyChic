@@ -51,15 +51,21 @@ section#are {
 section#are article {
   display: flex;
   justify-content: center;
-}
-
-section#are article p {
-  color: #f69bc1;
-  font-family: Helvetica, sans-serif;
-  font-size: 3.5em;
   width: 60%;
   margin-right: auto;
   margin-left: auto;
+}
+
+section#are article h2 {
+  color: #f69bc1;
+  font-family: Helvetica, sans-serif;
+  font-size: 3.5em;
+}
+
+section#are article p {
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.4em;
 }
 
 section#are article span {
@@ -111,6 +117,11 @@ section#grid .block-img div p {
 }
 
 /* Rodapé da página */
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   background-color: #ee2c2d;
   color: #ffffff;
@@ -145,7 +156,7 @@ div.follow ul li {
 }
 
 div.follow ul li img {
-  width: 10%;
+  width: 7%;
   margin: 5px;
 }
 

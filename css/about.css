@@ -85,6 +85,11 @@ section#content ul li {
 }
 
 /* Rodapé da página */
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   background-color: #ee2c2d;
   color: #ffffff;
@@ -119,7 +124,7 @@ div.follow ul li {
 }
 
 div.follow ul li img {
-  width: 10%;
+  width: 7%;
   margin: 5px;
 }
 
