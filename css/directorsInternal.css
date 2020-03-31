@@ -178,8 +178,8 @@ div.follow ul li img {
 @media screen and (max-width: 768px) {
   header#top section article h2 {
     font-size: 3.5em;
+    margin-top: 70px;
   }
-
 
   /* Rodapé da página */
   nav#menu-bottom {
