@@ -130,8 +130,21 @@ div.follow ul li img {
 
 /* Media queries */
 @media screen and (max-width: 768px) {
+  header#top section {
+    margin-top: 50px;
+  }
+
+  header#top section article a {
+    font-size: 1.4em;
+    font-family: 'Druk Wide';
+    border: 2px solid #ee2c2d;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
   .bottom {
-   margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   /* Rodapé da página */
