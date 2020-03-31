@@ -76,6 +76,9 @@ section#content p {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section#content article {
@@ -190,14 +193,19 @@ div.follow ul li img {
   }
 
   section#are article p {
-    font-size: 2em;
+    font-size: 1.8em;
     width: 100%;
+    margin-top: 70px;
     margin-bottom: -30px;
   }
 
   /* Seção com textos */
   section#content article {
     margin-bottom: 0%;
+  }
+
+  section#content p {
+    width: 100%;
   }
 
   section#content ul li {
