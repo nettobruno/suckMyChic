@@ -107,6 +107,10 @@ footer {
   font-family: 'Druk Wide';
 }
 
+footer h2, h3 {
+  text-transform: uppercase;
+}
+
 .logo-footer{
   width: 90%;
 }
@@ -132,7 +136,7 @@ nav#menu-bottom ul li a:hover {
 }
 
 div.follow h2 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   margin-top: 50px;
 }
 
@@ -155,12 +159,12 @@ div.follow ul li img:hover {
 }
 
 .location h3 {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 .location p {
   color: #f69bc1;
-  font-size: 1.2em;
+  font-size: 1em;
   width: 80%;
   margin-bottom: 50px;
 }
