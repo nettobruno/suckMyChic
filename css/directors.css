@@ -37,12 +37,19 @@ header#top section {
   padding: 5% 5% 0% 5%;
 }
 
+div.btn {
+  padding: 10px 20px;
+  border: 2px solid transparent;
+}
+
+div.btn:hover {
+  border: 2px solid #ee2c2d;
+}
+
 header#top section article a {
   color: #f69bc1;
   font-size: 2em;
   font-family: 'Druk Wide';
-  border: 2px solid #ee2c2d;
-  padding: 10px 20px;
   text-decoration: none;
 }
 
