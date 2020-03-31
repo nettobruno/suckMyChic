@@ -93,6 +93,11 @@ section#grid {
   padding: 5%;
 }
 
+.row {
+  display: flex;
+  justify-content: center;
+}
+
 section#grid .basketball {
   background: url('../img/basketball.jpg');
 }
@@ -205,4 +210,47 @@ div.follow ul li img {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.position {
+  text-align: right;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  /* Seção de somos */
+  section#are {
+    padding: 5%;
+  }
+  
+  section#are article {
+    width: 100%;
+  }
+
+  section#are article h2 {
+    font-size: 1.8em;
+  }
+
+  /* Rodapé da página */
+  nav#menu-bottom {
+    margin-bottom: 30px;
+  }
+
+  div.follow ul li img {
+    width: 10%;
+  }
+    
+  .location p {
+    width: 100%;
+  }
+     
+  .copyright {
+    padding: 5%;
+    text-align: center;
+  }
+
+  .position {
+    text-align: center;
+  }
 }
