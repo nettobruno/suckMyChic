@@ -28,9 +28,8 @@ nav#menu-top {
   padding: 20px;
 }
 
-nav#menu-top h1 {
-  color: #ee2c2d;
-  font-family: 'Druk Wide';
+nav#menu-top img#logo {
+  width: 20%;
 }
 
 /* Seção de somos */
@@ -201,6 +200,9 @@ div.follow ul li img:hover {
 
 /* Media queries */
 @media screen and (max-width: 768px) {
+  nav#menu-top img#logo {
+    width: 50%;
+  }
   /* Seção de somos */
   section#are {
     padding: 5%;

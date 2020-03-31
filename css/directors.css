@@ -27,9 +27,8 @@ nav#menu-top {
   padding: 20px;
 }
 
-nav#menu-top h1 {
-  color: #ee2c2d;
-  font-family: 'Druk Wide';
+nav#menu-top img#logo {
+  width: 20%;
 }
 
 header#top section {
@@ -156,16 +155,16 @@ div.follow ul li img:hover {
 
 /* Media queries */
 @media screen and (max-width: 768px) {
+  nav#menu-top img#logo {
+    width: 50%;
+  }
+  
   header#top section {
     margin-top: 50px;
   }
 
   header#top section article a {
     font-size: 1.4em;
-    font-family: 'Druk Wide';
-    border: 2px solid #ee2c2d;
-    padding: 10px 20px;
-    text-decoration: none;
   }
 
   .bottom {
