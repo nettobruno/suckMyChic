@@ -51,10 +51,12 @@ div#btn-top a {
   padding: 25px 45px;
   font-size: 1.5em;
   font-family: "Druk Wide";
+  transition: .2s;
 }
 
 div#btn-top a:hover {
-  text-decoration: underline;
+  border: 3px solid white;
+  color: white;
 }
 
 /* Seção de somos */
