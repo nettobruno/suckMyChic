@@ -172,3 +172,29 @@ div.follow ul li img {
 .uppercase {
   text-transform: uppercase;
 }
+
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  /* Rodapé da página */
+  nav#menu-bottom {
+    margin-bottom: 30px;
+  }
+
+  div.follow ul li img {
+    width: 10%;
+  }
+    
+  .location p {
+    width: 100%;
+  }
+     
+  .copyright {
+    padding: 5%;
+    text-align: center;
+  }
+
+  .position {
+    text-align: center;
+  }
+}
