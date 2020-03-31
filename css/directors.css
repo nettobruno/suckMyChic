@@ -130,6 +130,10 @@ div.follow ul li img {
 
 /* Media queries */
 @media screen and (max-width: 768px) {
+  .bottom {
+   margin-bottom: 50px;
+  }
+
   /* Rodapé da página */
   nav#menu-bottom {
     margin-bottom: 30px;

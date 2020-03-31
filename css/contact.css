@@ -180,4 +180,8 @@ div.follow ul li img {
   .position {
     text-align: center;
   }
+
+  .margin {
+    margin-bottom: 50px;
+  }
 }
