@@ -28,7 +28,7 @@ header#top {
 #myVideo {
   max-width: 100%;
   z-index: 0;
-  margin-bottom: -10px;
+  margin-bottom: -30px;
 }
 
 nav#menu-top {
@@ -41,6 +41,17 @@ nav#menu-top img#logo {
   width: 20%;
 }
 
+section.teste {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header#top section {
   display: flex;
   justify-content: center;
@@ -49,7 +60,7 @@ header#top section {
   height: 95vh;
 }
 
-div#btn-top a {
+div.btn-top a {
   color: #ee2c2d;
   text-decoration: none;
   text-transform: uppercase;
@@ -58,6 +69,10 @@ div#btn-top a {
   font-size: 1.5em;
   font-family: "Druk Wide";
   transition: .2s;
+}
+
+div.btn-mobile a {
+  display: none;
 }
 
 div#btn-top a:hover {
@@ -254,6 +269,17 @@ div.follow ul li img:hover {
     display: none;
   }
 
+  div.btn-mobile a {
+    display: block;
+    color: #ee2c2d;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 3px solid #ee2c2d;
+    padding: 25px 45px;
+    font-size: 1.5em;
+    font-family: "Druk Wide";
+    transition: .2s;
+  }
 
   nav#menu-top img#logo {
     width: 50%;
