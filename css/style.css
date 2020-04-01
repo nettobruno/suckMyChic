@@ -25,23 +25,15 @@ header#top {
   width: 100%;
 }
 
-#myVideo {
+div#myVideo {
   max-width: 100%;
-  z-index: 0;
   margin-bottom: -30px;
+  position: relative;
+  z-index: 0;
 }
 
-nav#menu-top {
-  height: 5vh;
-  padding: 20px;
+div#myVideo section.video-content {
   z-index: 1000;
-}
-
-nav#menu-top img#logo {
-  width: 20%;
-}
-
-section.teste {
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -52,15 +44,7 @@ section.teste {
   align-items: center;
 }
 
-header#top section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100vw;
-  height: 95vh;
-}
-
-div.btn-top a {
+div#myVideo section.video-content div.btn-top a {
   color: #ee2c2d;
   text-decoration: none;
   text-transform: uppercase;
@@ -71,13 +55,30 @@ div.btn-top a {
   transition: .2s;
 }
 
-div.btn-mobile a {
-  display: none;
-}
-
-div#btn-top a:hover {
+div#myVideo section.video-content div.btn-top a:hover {
   border: 3px solid white;
   color: white;
+}
+
+nav#menu-top {
+  height: 5vh;
+  padding: 20px;
+}
+
+nav#menu-top img#logo {
+  width: 20%;
+}
+
+header#top section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  height: 95vh;
+}
+
+div.btn-mobile a {
+  display: none;
 }
 
 /* Seção de somos */
