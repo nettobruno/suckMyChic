@@ -242,6 +242,20 @@ div.follow ul li img:hover {
 
 /* Media queries */
 @media screen and (max-width: 768px) {
+  header#top {
+    position: relative;
+    max-width: 100vw;
+    height: 100vh;
+    background: url('../img/graffiti.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #myVideo {
+    display: none;
+  }
+
+
   nav#menu-top img#logo {
     width: 50%;
   }
