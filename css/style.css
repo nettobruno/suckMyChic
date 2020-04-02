@@ -317,13 +317,12 @@ div.follow ul li img:hover {
   div.follow ul li img {
     width: 10%;
   }
-    
-  .location p {
-    width: 100%;
+
+  .location h3 {
+    margin-top: 50px;
   }
      
   .copyright {
-    padding: 5%;
     text-align: center;
   }
 
