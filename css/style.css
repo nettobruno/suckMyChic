@@ -9,6 +9,15 @@
   url("../fonts/druk-wide/5796fb1b44e3c87b7f3d5ff57994f7b3.svg#Druk Wide Web Medium Regular") format("svg"); /* iOS 4.1- */
 }
 
+@font-face {font-family: "Glypha LT Light";
+  src: url("../fonts/glypha/25131353d602372b572f01896b905864.eot"); /* IE9*/
+  src: url("../fonts/glypha/25131353d602372b572f01896b905864.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/glypha/25131353d602372b572f01896b905864.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/glypha/25131353d602372b572f01896b905864.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/glypha/25131353d602372b572f01896b905864.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/glypha/25131353d602372b572f01896b905864.svg#Glypha LT Std 45 Light") format("svg"); /* iOS 4.1- */
+}
+
 *, html, body {
   border: 0;
   padding: 0;
@@ -57,8 +66,8 @@ div#myVideo section.video-content div.btn-top a {
   text-decoration: none;
   text-transform: uppercase;
   border: 3px solid #ee2c2d;
-  padding: 25px 45px;
-  font-size: 1.5em;
+  padding: 40px 90px;
+  font-size: 2.3em;
   font-family: "Druk Wide";
   transition: .2s;
 }
@@ -69,20 +78,17 @@ div#myVideo section.video-content div.btn-top a:hover {
 }
 
 nav#menu-top {
-  height: 5vh;
   padding: 20px;
 }
 
 nav#menu-top img#logo {
-  width: 20%;
+  width: 25%;
 }
 
 header#top section {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* max-width: 100vw; */
-  /* height: 95vh; */
 }
 
 div.btn-mobile a {
@@ -92,32 +98,24 @@ div.btn-mobile a {
 /* Seção de somos */
 section#are {
   background-color: #000000;
-  padding: 5% 5% 0% 5%;
-}
-
-section#are article {
-  display: flex;
-  justify-content: center;
-  width: 60%;
-  margin-right: auto;
-  margin-left: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 section#are article h2 {
   color: #f69bc1;
   font-family: 'Druk Wide';
-  font-size: 3em;
+  font-size: 4em;
 }
 
 section#are article span {
   background-color: #ee2c2d;
-  padding: 5px;
 }
 
 /* Seção com grid */
 section#grid {
   background-color: #000000;
-  padding: 5%;
+  padding-bottom: 100px;
 }
 
 .row {
@@ -140,8 +138,8 @@ section#grid .ballet {
 section#grid .block-img {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 20vh;
-  margin: 10px;
+  height: 30vh;
+  margin: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,16 +147,16 @@ section#grid .block-img {
 
 section#grid .block-img div h2 {
   color: #ffffff;
-  font-size: 1.8em;
+  font-size: 2.5em;
   font-family: 'Druk Wide';
   margin: 0;
 }
 
 section#grid .block-img div p {
   color: #ffffff;
-  font-size: 1.3em;
+  font-size: 2em;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Glypha LT Light';
   margin: 0;
 }
 
@@ -171,11 +169,12 @@ section#grid .block-img div p {
 footer {
   background-color: #ee2c2d;
   color: #ffffff;
-  padding: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   font-family: 'Druk Wide';
 }
 
-footer h2, h3 {
+footer h3 {
   text-transform: uppercase;
 }
 
@@ -195,7 +194,7 @@ nav#menu-bottom ul {
 
 nav#menu-bottom ul li a {
   color: #f69bc1;
-  font-size: 1.4em;
+  font-size: 1.8em;
 }
 
 nav#menu-bottom ul li a:hover {
@@ -204,7 +203,7 @@ nav#menu-bottom ul li a:hover {
 }
 
 div.follow h2 {
-  font-size: 1.4em;
+  font-size: 1.8em;
   margin-top: 50px;
 }
 
@@ -217,8 +216,8 @@ div.follow ul li {
 }
 
 div.follow ul li img {
-  width: 8%;
-  margin: 5px;
+  width: 9%;
+  margin-left: 20px;
   transition: .3s;
 }
 
@@ -227,23 +226,24 @@ div.follow ul li img:hover {
 }
 
 .location h3 {
-  font-size: 1.4em;
+  font-size: 1em;
+  margin-bottom: 20px;
 }
 
 .location p {
   color: #f69bc1;
-  font-size: .9em;
-  width: 80%;
-  margin-bottom: 50px;
+  font-size: 1em;
+  margin-bottom: 20px;
 }
 
 .copyright {
   background-color: #000000;
   max-width: 100vw;
-  padding: 1% 5% 1% 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   font-family: 'Druk Wide';
   color: rgb(107, 107, 107);
-  font-size: .8em;
+  font-size: 1em;
 }
 
 .copyright a:hover {
@@ -288,23 +288,25 @@ div.follow ul li img:hover {
     font-size: 1.5em;
     font-family: "Druk Wide";
     transition: .2s;
+    margin-top: 70%;
+  }
+
+  nav#menu-top {
+    padding-top: 40px;
   }
 
   nav#menu-top img#logo {
-    width: 50%;
+    width: 100%;
   }
   
   /* Seção de somos */
   section#are {
-    padding: 5%;
-  }
-  
-  section#are article {
-    width: 100%;
+    padding-top: 30%;
+    padding-bottom: 30%;
   }
 
   section#are article h2 {
-    font-size: 1.8em;
+    font-size: 2em;
   }
 
   /* Rodapé da página */
