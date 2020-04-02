@@ -47,7 +47,7 @@ section#are article p {
   color: #f69bc1;
   font-family: 'Druk Wide';
   font-size: 3em;
-  width: 60%;
+  width: 70%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -75,7 +75,7 @@ section#content p {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
-  width: 60%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -88,6 +88,12 @@ section#content article h2 {
   font-size: 2em;
   font-family: 'Druk Wide';
   color: white;
+}
+
+article#list {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 section#content ul {
