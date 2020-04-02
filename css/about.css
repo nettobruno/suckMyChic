@@ -47,7 +47,6 @@ section#are article p {
   color: #f69bc1;
   font-family: 'Druk Wide';
   font-size: 3em;
-  width: 70%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -75,7 +74,6 @@ section#content p {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
-  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -90,7 +88,8 @@ section#content article h2 {
   color: white;
 }
 
-article#list {
+
+.width {
   width: 70%;
   margin-right: auto;
   margin-left: auto;
@@ -225,8 +224,7 @@ div.follow ul li img:hover {
 
   section#are article p {
     font-size: 1.8em;
-    width: 100%;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-bottom: -30px;
   }
 
@@ -235,12 +233,20 @@ div.follow ul li img:hover {
     margin-bottom: 0%;
   }
 
-  section#content p {
-    width: 100%;
+  section#content article p {
+    margin-top: 50px;
   }
 
   section#content ul li {
     margin-bottom: 30px;
+  }
+  article#list {
+    margin-top: 50px;
+  }
+
+
+  .width {
+    width: 100%;
   }
 
   /* Rodapé da página */
