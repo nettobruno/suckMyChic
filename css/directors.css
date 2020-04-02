@@ -65,11 +65,12 @@ header#top section article a span {
 footer {
   background-color: #ee2c2d;
   color: #ffffff;
-  padding: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   font-family: 'Druk Wide';
 }
 
-footer h2, h3 {
+footer h3 {
   text-transform: uppercase;
 }
 
@@ -89,7 +90,7 @@ nav#menu-bottom ul {
 
 nav#menu-bottom ul li a {
   color: #f69bc1;
-  font-size: 1.4em;
+  font-size: 1.8em;
 }
 
 nav#menu-bottom ul li a:hover {
@@ -98,7 +99,7 @@ nav#menu-bottom ul li a:hover {
 }
 
 div.follow h2 {
-  font-size: 1.4em;
+  font-size: 1.8em;
   margin-top: 50px;
 }
 
@@ -111,8 +112,8 @@ div.follow ul li {
 }
 
 div.follow ul li img {
-  width: 8%;
-  margin: 5px;
+  width: 9%;
+  margin-left: 20px;
   transition: .3s;
 }
 
@@ -121,23 +122,24 @@ div.follow ul li img:hover {
 }
 
 .location h3 {
-  font-size: 1.4em;
+  font-size: 1em;
+  margin-bottom: 20px;
 }
 
 .location p {
   color: #f69bc1;
-  font-size: .9em;
-  width: 80%;
-  margin-bottom: 50px;
+  font-size: 1em;
+  margin-bottom: 20px;
 }
 
 .copyright {
   background-color: #000000;
   max-width: 100vw;
-  padding: 1% 5% 1% 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   font-family: 'Druk Wide';
   color: rgb(107, 107, 107);
-  font-size: .8em;
+  font-size: 1em;
 }
 
 .copyright a:hover {
@@ -184,13 +186,12 @@ div.follow ul li img:hover {
   div.follow ul li img {
     width: 10%;
   }
-    
-  .location p {
-    width: 100%;
+
+  .location h3 {
+    margin-top: 50px;
   }
      
   .copyright {
-    padding: 5%;
     text-align: center;
   }
 
