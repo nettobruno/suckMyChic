@@ -32,6 +32,7 @@ header#top {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 100;
 }
 
 div#myVideo {
@@ -46,7 +47,7 @@ div#myVideo {
 }
 
 div#myVideo section.video-content {
-  z-index: 1000;
+  z-index: 0;
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -79,6 +80,7 @@ div#myVideo section.video-content div.btn-top a:hover {
 
 nav#menu-top {
   padding: 20px;
+  z-index: 1;
 }
 
 nav#menu-top img#logo {
