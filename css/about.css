@@ -35,7 +35,7 @@ nav#menu-top img#logo {
 /* Seção de somos */
 section#are {
   background-color: #000000;
-  padding: 5% 0% 1% 0%;
+  padding-bottom: 0%;
 }
 
 section#are article {
@@ -47,8 +47,7 @@ section#are article p {
   color: #f69bc1;
   font-family: 'Druk Wide';
   font-size: 3.5em;
-  margin-right: auto;
-  margin-left: auto;
+  padding-top: 10%;
 }
 
 .background {
@@ -74,8 +73,6 @@ section#content p {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 section#content article {
@@ -216,6 +213,14 @@ div.follow ul li img:hover {
   nav#menu-top img#logo {
     width: 50%;
   }
+
+  section#are article p {
+    color: #f69bc1;
+    font-family: 'Druk Wide';
+    font-size: 3.5em;
+    padding-top: 5%;
+  }
+
   /* Seção de somos */
   section#are {
     padding: 5%;
@@ -238,7 +243,7 @@ div.follow ul li img:hover {
   }
 
   section#content article p {
-    margin-top: 50px;
+    padding-top: 20px;
   }
 
   section#content ul li {
