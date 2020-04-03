@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 @font-face {font-family: "Druk Wide";
   src: url("../fonts/druk-wide/5796fb1b44e3c87b7f3d5ff57994f7b3.eot"); /* IE9*/
@@ -38,7 +38,7 @@ header#top section {
 
 header#top section article h2 {
   color: #f69bc1;
-  font-size: 5em;
+  font-size: 8em;
   font-family: 'Druk Wide';
 }
 
@@ -49,6 +49,9 @@ header#top section article h2 span {
 header#top section article p { 
   color: #f69bc1;
   font-size: 1.4em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-bottom: -5px;
 }
 
 /* Seção com grid */
@@ -206,6 +209,10 @@ div.follow ul li img:hover {
   header#top section article h2 {
     font-size: 2.5em;
     margin-top: 70px;
+  }
+
+  header#top section article p {
+    margin-bottom: 10px;
   }
 
   /* Rodapé da página */
