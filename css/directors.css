@@ -36,12 +36,12 @@ header#top section {
   padding: 5% 5% 0% 5%;
 }
 
-div.btn {
+a.btn {
   padding: 10px 20px;
   border: 2px solid transparent;
 }
 
-div.btn:hover {
+a.btn:hover {
   border: 2px solid #ee2c2d;
 }
 
