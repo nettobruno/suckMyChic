@@ -272,12 +272,6 @@ div.modal-content {
   font-family: 'Druk Wide';
 }
 
-/* div.modal-header {
-  border-bottom: none;
-  margin: 0;
-  padding: 0;
-} */
-
 button.close {
   background-color: transparent;
   color: white;
@@ -401,4 +395,34 @@ div.modal-content img {
   .position {
     text-align: center;
   }
+
+
+  /* Estilização do modal de newsletter */
+  div.modal-content {
+    padding: 1%;
+  }
+
+  button.close {
+    font-size: 3em;
+    margin-right: 10px;
+  }
+
+  div.modal-content h2 {
+    margin-top: 30px;
+    font-size: 2em;
+  }
+
+  div.modal-content h2 span {
+    padding: 5px;
+  }
+
+  div.modal-content input {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  div.modal-content img {
+    width: 25%;
+    top: 150px;
+  } 
 }
