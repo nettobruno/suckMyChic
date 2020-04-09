@@ -79,6 +79,7 @@ div#myVideo section.video-content div.btn-top a:hover {
 }
 
 nav#menu-top {
+  height: 10vh;
   padding: 20px;
   z-index: 1;
 }

@@ -17,13 +17,11 @@
 
 /* Imagem de fundo e botão centralizado */
 header#top {
-  max-width: 100vw;
-  height: 70vh;
   background-color: #000;
 }
 
 nav#menu-top {
-  height: 5vh;
+  height: 10vh;
   padding: 20px;
 }
 
@@ -31,7 +29,10 @@ nav#menu-top img#logo {
   width: 20%;
 }
 
-header#top section {
+section {
+  max-width: 100vw;
+  height: 70vh;
+  background-color: #000;
   text-align: center;
   padding: 5% 5% 0% 5%;
 }
@@ -39,20 +40,23 @@ header#top section {
 a.btn {
   padding: 10px 20px;
   border: 2px solid transparent;
+  font-size: 3em;
+  color: white;
 }
 
 a.btn:hover {
   border: 2px solid #ee2c2d;
+  color: white;
 }
 
-header#top section article a {
+section article a {
   color: #f69bc1;
   font-size: 3em;
   font-family: 'Druk Wide';
   text-decoration: none;
 }
 
-header#top section article a span {
+section article a span {
   color: #ee2c2d;
 }
 
