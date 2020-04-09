@@ -173,8 +173,11 @@ footer {
   background-color: #ee2c2d;
   color: #ffffff;
   padding-top: 5%;
-  padding-bottom: 5%;
   font-family: 'Druk Wide';
+}
+
+.padding-b {
+  padding-bottom: 5%;
 }
 
 footer h3 {
