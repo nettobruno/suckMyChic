@@ -172,12 +172,22 @@ div.follow ul li img:hover {
     width: 50%;
   }
   
-  header#top section {
-    margin-top: 50px;
+  section {
+    padding: 5% 0% 5% 0%;
+    height: 100%;
   }
 
-  header#top section article a {
-    font-size: 1.4em;
+  div.row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  a.btn {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
   }
 
   .bottom {
