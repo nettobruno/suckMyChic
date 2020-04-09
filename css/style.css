@@ -336,16 +336,21 @@ div.modal-content img {
 /* Media queries */
 @media screen and (max-width: 768px) {
   header#top {
+    position: absolute;
+    height: 5vh;
+  }
+
+  #myVideo, .video-container video {
+    display: none;
+  }
+
+  section#mobile-background {
     position: relative;
     max-width: 100vw;
     height: 100vh;
     background: url('../img/graffiti.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-  }
-
-  #myVideo, .video-container video {
-    display: none;
   }
 
   div.btn-mobile a {
@@ -359,6 +364,10 @@ div.modal-content img {
     font-family: "Druk Wide";
     transition: .2s;
     margin-top: 70%;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    text-align: center;
   }
 
   nav#menu-top {
